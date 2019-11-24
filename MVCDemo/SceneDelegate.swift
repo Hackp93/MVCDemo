@@ -17,6 +17,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
+        
+        //initializing the controller and providing the dependencies. Here cityFetcher is a dependency which is being injected into the controller. The city fetcher is a protocol which provides flexibility that the fetcher can fetch cities from local cache or remote service. The viewcontroller won't know where the data is coming from. We can make multiple cityFetcher eg. LocalFetcher and RemoteCityFetcher. Both can be injected in the controller
+        let cityListController = getInitialController(from: "Main") as! ViewController
+        cityListController.cityFetcher = LocalCityFether()
+        window?.rootViewController = cityListController
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
