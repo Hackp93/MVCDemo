@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77404E1824DE62DD00F25406 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77404E1724DE62DD00F25406 /* Network.swift */; };
+		77404E1A24DE62E500F25406 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77404E1924DE62E400F25406 /* NetworkError.swift */; };
 		77E68488238A83EB00C73A43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E68487238A83EB00C73A43 /* AppDelegate.swift */; };
 		77E6848A238A83EB00C73A43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E68489238A83EB00C73A43 /* SceneDelegate.swift */; };
 		77E6848C238A83EB00C73A43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6848B238A83EB00C73A43 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77404E1724DE62DD00F25406 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		77404E1924DE62E400F25406 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		77E68484238A83EB00C73A43 /* MVCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E68487238A83EB00C73A43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77E68489238A83EB00C73A43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				77E68487238A83EB00C73A43 /* AppDelegate.swift */,
 				77E68489238A83EB00C73A43 /* SceneDelegate.swift */,
 				77E684B9238A859400C73A43 /* CityListProvider.swift */,
+				77404E1724DE62DD00F25406 /* Network.swift */,
+				77404E1924DE62E400F25406 /* NetworkError.swift */,
 				77E684BB238A882300C73A43 /* Helpers.swift */,
 				77E6848B238A83EB00C73A43 /* ViewController.swift */,
 				77E684B7238A847F00C73A43 /* City.swift */,
@@ -275,10 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E684BA238A859400C73A43 /* CityListProvider.swift in Sources */,
+				77404E1A24DE62E500F25406 /* NetworkError.swift in Sources */,
 				77E684BC238A882300C73A43 /* Helpers.swift in Sources */,
 				77E6848C238A83EB00C73A43 /* ViewController.swift in Sources */,
 				77E68488238A83EB00C73A43 /* AppDelegate.swift in Sources */,
 				77E684B8238A847F00C73A43 /* City.swift in Sources */,
+				77404E1824DE62DD00F25406 /* Network.swift in Sources */,
 				77E6848A238A83EB00C73A43 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
